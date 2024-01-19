@@ -6,4 +6,4 @@ fork of the xct env with some modifications :
 coming soon:
 - tools install (tools.txt)
 - fix vscode extensions
-- fix exegol input
+- fix exegol and input
