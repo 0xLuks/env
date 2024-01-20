@@ -1,4 +1,5 @@
-# fork of the xct env with personal tweaks
+# fork of the xct env with personal tweaks :
+- redesign of the installation script
 - increase font size
 - installation of additional tools :
   - [fzf](https://github.com/junegunn/fzf)
