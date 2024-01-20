@@ -1,6 +1,6 @@
 # fork of the xct env with personal tweaks
 - increase font size
-- installation of
+- installation of additional tools :
   - [fzf](https://github.com/junegunn/fzf)
   - [docker](https://www.docker.com/)
   - [exegol](https://github.com/ThePorgs/Exegol)
