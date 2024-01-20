@@ -3,6 +3,8 @@
 - installation of fzf, docker, exegol, curl, zsh, vscode
 - wallpaper cyberpunk
 
+![image](env.jpg)
+
 ## Installation
 
 ```
@@ -13,5 +15,3 @@
 - tools install (tools.txt)
 - fix vscode extensions
 - fix exegol and input
-
-![image](env.jpg)
