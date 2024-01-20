@@ -12,7 +12,7 @@ step() {
 }
 
 total_step=8
-#current_step=0
+current_step=0
 
 for ((current_step = 1; current_step <= total_steps; current_step++)); do
     step $current_step $total_steps
