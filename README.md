@@ -7,8 +7,6 @@
   - [exegol](https://github.com/ThePorgs/Exegol)
   - [vscode](https://code.visualstudio.com/)
 
-- wallpaper cyberpunk
-
 ![image](env.jpg)
 
 ## Installation
@@ -20,4 +18,3 @@
 ## Fix
 - tools install (tools.txt)
 - fix vscode extensions
-- fix exegol and input
