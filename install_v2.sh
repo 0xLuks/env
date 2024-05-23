@@ -69,12 +69,18 @@ fi
 
 # Exegol
 ((current_step++))
-if ! python3 -m pip show exegol &> /dev/null; then
+if ! command -v pipx &> /dev/null; then
+    step 60 "Installing pipx"
+    python3 -m pip install --user pipx
+    python3 -m pipx ensurepath
+    export PATH="$HOME/.local/bin:$PATH"
+fi
+
+if ! pipx list | grep -q 'exegol'; then
     step 75 "Installing exegol"
-    python3 -m pip install exegol
+    pipx install exegol
     sudo usermod -aG docker $(id -u -n)
     newgrp docker
-    export PATH="$HOME/.local/bin:$PATH"
 else
     step 75 "Exegol is already installed, skipping."
 fi
