@@ -14,11 +14,6 @@ step() {
 total_steps=8
 current_step=0
 
-for ((current_step = 1; current_step <= total_steps; current_step++)); do
-    step $((current_step * 100 / total_steps)) "Progress: $current_step/$total_steps"
-    sleep 1
-done
-
 # Base
 ((current_step++))
 step 10 "Installing base"
